@@ -1,0 +1,7 @@
+p=int(input("enter"))
+t=int(input("enter"))
+r=int(input("enter"))
+si=(p*t*r)/100
+ci=p*(1+r)^t-p
+print("simple intrest: ",si)
+print("compound intrest: ",ci)

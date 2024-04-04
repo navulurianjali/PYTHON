@@ -1,0 +1,7 @@
+a=int(input("enter: "))
+if(a>=90):print("grade s")
+elif(a<=89)and(a>=80):print("grade a")
+elif(a<=79)and(a>=70):print("grade b")
+elif(a<=69)and(a>=60):print("grade c")
+elif(a<=59)and(a>=50):print("grade d")
+else:print("fail")

@@ -1,0 +1,6 @@
+l=int(input("enter: "))
+b=int(input("enter: "))
+print("area of rectangle: ",l*b)
+print("perimeter of rect: ",2*(l+b))
+print("area of square: ",l*b)
+print("perimeter of sq: ",l+b)

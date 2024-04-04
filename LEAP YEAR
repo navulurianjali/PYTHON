@@ -1,0 +1,7 @@
+date=int(input("enter date: "))
+month=int(input("enter month: "))
+year=int(input("enter year: "))
+if(year%4==0):
+    print("leap year:","next leap year",date,"/",month,"/",year+4)
+else:
+    print("not a leap year:","previous leap year",date,"/",month,"/",year-4)

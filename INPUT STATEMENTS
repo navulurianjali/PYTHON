@@ -1,0 +1,11 @@
+print("various input")
+a=int(input("enter: "))
+b=str(input("enter: "))
+c=float(input("enter: "))
+d="helloo"
+print(type(d)
+print(d[::-1])
+print(d[ :3])
+print(a)
+print(b)
+print(c)

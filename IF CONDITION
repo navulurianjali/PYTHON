@@ -1,0 +1,7 @@
+print("if conditions")
+a=int(input("enter: "))
+if(a>0):
+    print("a is positive")
+b=int(input("enter: "))
+if(b>2000):
+          print(b+500)

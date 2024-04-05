@@ -1,0 +1,12 @@
+n=int(input("enter: "))
+a=0
+b=1
+sum=0
+print("fibonacci series:")
+while(a<n):
+    print(a)
+    sum=sum+a
+    c=a+b
+    a=b
+    b=c
+print("sum is: ",sum)

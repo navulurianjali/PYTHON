@@ -1,0 +1,7 @@
+def mul():
+    n=int(input("enter"))
+    i=1
+    for i in range(1,11,1):
+        m=n*i
+        print(n,"*",i,"=",m)
+mul()

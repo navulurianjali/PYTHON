@@ -1,0 +1,19 @@
+import array
+sum=0
+i=[5,6,7,8,9]
+a=array.array("i",[])
+a.fromlist(i)
+a.pop(1)
+print(a)
+a.append(12)
+print(a)
+a.insert(2,34)
+print(a)
+a.reverse()
+print(a)
+print(a.count(5))
+print(a.index(12))
+for i in a:
+    sum=sum+i
+print("sum:",sum)
+

@@ -1,0 +1,13 @@
+a="haPPY birthday"
+print(a.lower())
+print(a.upper())
+print(a.capitalize())
+print(a.split())
+print(a.title())
+print(a.swapcase())
+print(a.replace("haPPY","happyyyy"))
+print(a.count("haPPY"))
+
+b="-"
+print(b.join(a))
+print(a.center(15,"*"))

@@ -1,0 +1,13 @@
+a="Happyy**Birthday"
+print(a.islower())
+print(a.isupper())
+print(a.isalnum())
+print(a.isspace())
+print(a.istitle())
+print(a.startswith('H'))
+print(a.endswith('y'))
+print(a.find('B'))
+print(len(a))
+print(min(a))
+print(max(a))
+

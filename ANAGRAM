@@ -1,0 +1,6 @@
+a=str(input("enter:"))
+b=str(input("enter:"))
+if(sorted(a)==sorted(b)):
+    print("anagram")
+else:
+    print("not anagram")

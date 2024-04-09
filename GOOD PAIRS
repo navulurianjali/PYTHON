@@ -1,0 +1,9 @@
+a=[1,2,3,4,5]
+count=0
+for i in range(len(a)):
+    for j in range(len(a)):
+        if(a[i]==a[j]) and (i<j):
+            count=count+1
+            print(i,j)
+            
+print(count)          

@@ -1,0 +1,4 @@
+n=str(input("enter:"))
+m=str(input("enter:"))
+sum=bin(int(n,2)+int(m,2))
+print(sum[2:])

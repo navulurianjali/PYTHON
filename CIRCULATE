@@ -1,0 +1,8 @@
+def cir(lst, n):
+    n = n % len(lst) 
+    return lst[-n:] + lst[:-n]
+values = [1, 2, 3, 4, 5]
+n = 2
+rv = cir(values, n)
+print("Original list:", values)
+print("Circulated list:",rv)

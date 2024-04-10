@@ -1,0 +1,30 @@
+def p(string):  
+    chars = list(string)   
+    chars.sort()  
+  
+    result = []  
+ 
+    def backtrack(start):  
+  
+        if start == len(chars):  
+            result.append(''.join(chars))  
+  
+        for i in range(start, len(chars)):  
+ 
+            if i != start and chars[i] == chars[start]:  
+                continue  
+  
+            chars[start], chars[i] = chars[i], chars[start]  
+  
+            backtrack(start + 1)  
+
+            chars[start], chars[i] = chars[i], chars[start]  
+
+    backtrack(0)  
+      
+    return result  
+    
+string = "113"  
+permutations = p(string)  
+for permutation in permutations:  
+    print(permutation)

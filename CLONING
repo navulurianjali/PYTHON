@@ -1,0 +1,12 @@
+a=[1,2,33,4]
+print(a.append(5))
+a.remove(2)
+b=a[:]
+print(b)
+print(a == b)
+b=list(a)
+print(b)
+print(a is b)
+b=a.copy()
+print(b)
+print(a is b)
